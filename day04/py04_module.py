@@ -30,3 +30,8 @@ result = random.choices(numbers, weights=weight, k=6)
 print(result)
 # 한꺼번에 여섯개를 추출하는 랜덤
 
+
+import numpy
+
+lotto = numpy.random.choice(numbers, 6, replace=False)
+print(list(lotto))
