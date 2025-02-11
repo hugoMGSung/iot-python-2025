@@ -5,7 +5,7 @@ NUM_MOLES=3
 
 
 root = Tk()
-root.title('두더쥐 게임 v1.0')
+root.title('두더지 게임 v1.0')
 
 moleFrame=Frame(root)
 moleFrame.grid(row=0,column=0)
